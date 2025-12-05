@@ -1,2 +1,2 @@
-summon silverfish ~ ~ ~ {PersistenceRequired:1b,Passengers:[{id:"minecraft:armor_stand"}]}
+summon silverfish ~ ~ ~ {Tags:["wpangel"],PersistenceRequired:1b,Passengers:[{id:"minecraft:armor_stand"}],NoAI:1b}
 execute as @e[type=silverfish] run attribute @s minecraft:movement_speed base set 0.3
